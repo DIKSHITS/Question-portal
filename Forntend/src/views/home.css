@@ -1,0 +1,63 @@
+
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    background-position: center;
+  }
+  
+  .home-page {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tiles-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tile {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .tile:hover {
+    transform: scale(1.05);
+  }
+  
+  .tile-heading {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .tile-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .admin-tile {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .student-tile {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
